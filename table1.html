@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table</title>
+    <style>
+        table{
+            width: 60%;
+        }
+        table, th, td{
+            border: 2px solid red;
+            border-collapse: collapse;
+            /* border-radius: 20px; */
+        }
+        th, td{
+            padding: 20px;
+        }
+        #second{
+            color: green;
+            /* width: 150px; */
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Fruit</th>
+            <td id="second">apple</td>
+            <td>mango</td>
+        </tr>
+
+        <tr>
+            <th>vegetables</th>
+            <td>carrot</td>
+            <td>potato</td>
+        </tr>
+
+        <tr>
+            <th>vegetables</th>
+            <td>tomato</td>
+            <td>lemon</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Fruit</th>
+            <td id="second">apple</td>
+            <td>mango</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">vegetables</th>
+            <td>carrot</td>
+            <td>potato</td>
+        </tr>
+
+        <tr>
+            <td>tomato</td>
+            <td>lemon</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Fruit</th>
+            <td id="second">apple</td>
+            <td>mango</td>
+        </tr>
+
+        <tr>
+            <th colspan="2">vegetables</th>
+            <td>carrot</td>
+            <td>potato</td>
+        </tr>
+
+        <tr>
+            <th>vegetables</th>
+            <td>tomato</td>
+            <td>lemon</td>
+        </tr>
+    </table>
+
+</body>
+</html>
